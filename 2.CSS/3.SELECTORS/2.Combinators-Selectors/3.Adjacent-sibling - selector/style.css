@@ -1,0 +1,5 @@
+/* Adjacent sibling selector */
+ /* take immediate  */
+div +p{
+    color: red;
+}

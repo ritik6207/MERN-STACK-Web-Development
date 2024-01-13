@@ -1,0 +1,15 @@
+.hex
+{
+    color: #999999;
+    background-color: #9AD106;
+}
+
+.rgb
+{
+    color: rgb(0, 60, 108);
+}
+
+.rgba
+{
+    color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,39 @@
+/* :required */
+/* input:required 
+{
+    background-color: black;
+    color: white;
+} */
+
+/* disabled */
+/* input:disabled 
+{
+    background-color: pink;
+} */
+
+/* placeholder-shown */
+/* input:placeholder-shown{
+    background-color: pink;
+} */
+
+/* :invalid */
+/* input:invalid
+{
+    border: 5px solid red;
+} */
+
+/* valid */
+/* input:valid
+{
+    border: 5px solid green;
+} */
+
+input:in-range
+{
+    border: 5px solid green;
+}
+
+input:out-of-range
+{
+    border: 5px solid red;
+}

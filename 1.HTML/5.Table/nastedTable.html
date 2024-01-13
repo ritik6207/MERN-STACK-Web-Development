@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nasted HTML table</title>
+  </head>
+  <body>
+    <!-- nasted HTML table -->
+    <h1>Nasted HTML Table</h1>
+    <hr />
+    <table style="width: 100%; border: 1px solid #ccc; margin: 10px">
+      <caption style="text-align: center; font-weight: bolder; margin: 10px">
+        Empolyees Information
+      </caption>
+      <!-- ? Table head -->
+      <tr>
+        <th style="padding: 10px; border: 1px solid; text-align: center">
+          Name
+        </th>
+        <th style="padding: 10px; border: 1px solid; text-align: center">
+          Age
+        </th>
+        <th style="padding: 10px; border: 1px solid; text-align: center">
+          Gender
+        </th>
+        <th style="padding: 10px; border: 1px solid; text-align: center">
+          Deparment
+        </th>
+      </tr>
+      <!-- * Table data 1 -->
+      <tr>
+        <td style="padding: 10px; border: 1px solid">Ritik Kumar</td>
+        <td style="padding: 10px; border: 1px solid">22</td>
+        <td style="padding: 10px; border: 1px solid">male</td>
+        <td>
+          <!-- ! Nasted -->
+          <table style="width: 100%; margin: 0; border: none">
+            <!-- ? nasted Table head -->
+            <tr>
+              <th style="background-color: #f0f0f0; padding: 5px">
+                Deparment name
+              </th>
+              <th style="background-color: #f0f0f0; padding: 5px">Manager</th>
+              <th style="background-color: #f0f0f0; padding: 5px">Sales</th>
+            </tr>
+            <!-- ? nasted Table data -->
+            <tr>
+              <td>Sales</td>
+              <td>Emma</td>
+              <td>$200</td>
+            </tr>
+            <!-- ? nasted Table data -->
+            <tr>
+              <td>IT</td>
+              <td>Ben</td>
+              <td>$800</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- * Table data 2 -->
+      <tr>
+        <td style="padding: 10px; border: 1px solid">Kajal Jha</td>
+        <td style="padding: 10px; border: 1px solid">30</td>
+        <td style="padding: 10px; border: 1px solid">Female</td>
+        <td>
+          <!-- ! Nasted -->
+          <table style="width: 100%; margin: 0; border: none">
+            <!-- ? nasted Table head -->
+            <tr>
+              <th style="background-color: #f0f0f0; padding: 5px">
+                Deparment name
+              </th>
+              <th style="background-color: #f0f0f0; padding: 5px">Manager</th>
+              <th style="background-color: #f0f0f0; padding: 5px">Sales</th>
+            </tr>
+            <!-- ? nasted Table data -->
+            <tr>
+              <td>Business</td>
+              <td>goku</td>
+              <td>$3500</td>
+            </tr>
+            <!-- ? nasted Table data -->
+            <tr>
+              <td>Agricultural</td>
+              <td>Rmma</td>
+              <td>$5200</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+#news{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.artical{
+    border-bottom: 1px solid #b2baba;
+    padding: 10px;
+}
+
+.artical h3{
+    color: #1a5276;
+}
+
+.artical p{
+    font-size: 16px;
+}
+
+.artical p.author{
+    font-weight: bold;
+    color: #7d6608;
+}
+
+/* Adjacent */
+
+.artical .author + p{
+    color: red;
+}

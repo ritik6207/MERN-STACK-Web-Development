@@ -1,0 +1,59 @@
+{
+    "window.zoomLevel": 4,
+    "workbench.statusBar.visible": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.formatOnSave": true,
+    "html.format.contentUnformatted": "",
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": { "*html": "html" },
+    "emmet.useInlineCompletions": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSurroundingLines": 1,
+    "diffEditor.wordWrap": "on",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.fontSize": 14,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.inlineSuggest.enabled": true,
+    "tabnine.experimentalAutoImports": true,
+    "editor.defaultFormatter": "necinc.elmmet",
+    "editor.guides.bracketPairs": true,
+    "editor.linkedEditing": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "prettier.arrowParens": "avoid",
+    "editor.codeActionsOnSave": {},
+    "workbench.colorTheme": "Night Owl (No Italics)",
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+          {
+              "scope": [
+               "entity.name.tag.html"
+               ],
+               "settings": {
+               "foreground": "#d65656"
+               }
+     
+          },
+          {
+            "scope": [
+             "comment.block.html"
+             ],
+             "settings": {
+             "foreground": "#2f8c00"
+             }
+          },
+  
+          {
+            "scope": [
+             "comment.line.double-slash.js"
+             ],
+             "settings": {
+             "foreground": "#2f8c00"
+             }
+          }
+          
+      ]
+  }
+  
+  }
+  

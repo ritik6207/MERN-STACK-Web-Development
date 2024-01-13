@@ -1,0 +1,24 @@
+h1::first-line
+{
+    color: red;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: pink;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+h3::first-letter
+{
+    color: red;
+    font-size: 90px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.container p::first-letter
+{
+    color: red;
+    font-size: 90px;
+    letter-spacing: 10px;
+}

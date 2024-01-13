@@ -1,0 +1,18 @@
+/* Class Selector (.) */
+
+.title 
+{
+    color: rebeccapurple;
+}
+
+.dece{
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+}
+
+.div {
+    background-color: black;
+    color: white;
+    padding:10px;
+}

@@ -1,0 +1,6 @@
+/* General sibling selector */
+ /* take next  */
+div ~ p 
+{
+    color: red;
+}

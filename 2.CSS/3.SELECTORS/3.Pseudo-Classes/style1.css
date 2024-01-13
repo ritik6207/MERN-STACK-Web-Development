@@ -1,0 +1,33 @@
+button:hover
+{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    width: 500px;
+}
+
+button:active
+{
+    background-color: green;
+    padding: 20px;
+}
+
+input:focus
+{
+    background-color: green;
+}
+
+a:link
+{
+    color: green;
+}
+
+a:any-link
+{
+    color: red;
+}
+
+a:visited
+{
+    color: blue;
+}
