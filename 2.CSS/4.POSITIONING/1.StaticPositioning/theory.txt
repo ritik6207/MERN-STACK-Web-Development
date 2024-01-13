@@ -1,0 +1,3 @@
+Static positioning in CSS is the default position for HTML elements. It positions an element based on the page's normal flow, as it would be without any CSS styling. 
+Static positioning doesn't render an element in any special way, but in a normal way. It's not affected by the top, right, bottom, or left properties. Z-index also doesn't apply to static elements. 
+If you try to apply offset properties like top, bottom, right, and left to a square with the default static position applied to it, these properties will do nothing and the square will not move.
