@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Default style for larger desktops */
+.header{
+    background-color: blue;
+    font-size: 30px;
+    height: 100px;
+    color: white;
+    padding: 40px;
+}
+
+/* Samll Destops: Adjust styles for screen widths up to 1439 */
+@media(max-width: 1439px){
+    .header{
+        background-color: darkorange;
+    }
+}
+
+@media screen and (max-width: 1439px){
+    .header{
+        background-color: darkorange;
+    }
+}
+
+/* tablets: Adjust styles for screen widths up to 1279 */
+@media(max-width: 1279px){
+    .header{
+        background-color: darkgreen;
+    }
+}
+
+/* Larger Phones: Adjust styles for screen widths up to 767px */
+@media(max-width: 767px){
+    .header{
+        background-color: rebeccapurple;
+    }
+}
+
+/* smaller Phones: Adjust styles for screen widths up to 374px */
+@media(max-width: 374px){
+    .header{
+        background-color: rgb(1, 243, 222);
+    }
+}
