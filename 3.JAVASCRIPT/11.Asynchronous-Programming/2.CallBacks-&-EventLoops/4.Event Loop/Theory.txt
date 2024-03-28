@@ -1,0 +1,22 @@
+=> Go to this website 
+http://latentflip.com/loupe/?code=CmNvbnNvbGUubG9nKCJTdGFydCIpCgpzZXRUaW1lb3V0KGZ1bmN0aW9uKCl7CiAgICBjb25zb2xlLmxvZygiVGltZSBvdXQgMSIpCn0sIDUwMDApCgpzZXRUaW1lb3V0KGZ1bmN0aW9uKCl7CiAgICBjb25zb2xlLmxvZygiVGltZSBvdXQgMiIpCn0sIDApCgpjb25zb2xlLmxvZygiRW5kIik%3D!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D
+
+
+=> Run this code
+
+console.log("Start")
+
+setTimeout(function(){
+    console.log("Time out 1")
+}, 5000)
+
+setTimeout(function(){
+    console.log("Time out 2")
+}, 0)
+
+console.log("End")
+
+
+
+=> Working this code
+calss Stack ----> web api -----> callback Queue
