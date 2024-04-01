@@ -1,0 +1,7 @@
+=>for Web APIs (Browser API) got to this link
+https://developer.mozilla.org/en-US/docs/Web/API
+
+
+
+=> for Third party API go to this link
+https://rapidapi.com/
