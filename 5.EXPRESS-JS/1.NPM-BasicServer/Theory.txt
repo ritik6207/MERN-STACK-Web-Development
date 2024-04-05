@@ -1,0 +1,6 @@
+=> First init the npm (using 'npm init')
+
+
+
+=> install the express using 
+'npm i express'
