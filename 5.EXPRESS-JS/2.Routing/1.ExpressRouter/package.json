@@ -1,0 +1,24 @@
+{
+  "name": "expressrouter",
+  "version": "2.0.2",
+  "description": "Exploring Express Router",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "ExpressJs",
+    "Router",
+    "MERN",
+    "Stack"
+  ],
+  "author": "Ritik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
