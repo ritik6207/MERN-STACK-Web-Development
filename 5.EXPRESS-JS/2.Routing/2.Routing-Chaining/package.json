@@ -1,0 +1,22 @@
+{
+  "name": "routing-chaining",
+  "version": "2.0.3",
+  "description": "Exploring routing chaining",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "expressJs",
+    "routing-chaining",
+    "MERN",
+    "Stack"
+  ],
+  "author": "Ritik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
