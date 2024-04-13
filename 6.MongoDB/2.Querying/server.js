@@ -6,7 +6,7 @@ const PORT = 5000;
 
 //! Connect to mongodb
 //1. Create the client
-const client = new MongoClient("mongodb+srv://ritik6207:Ritik1234@ritik.ff6rz6b.mongodb.net/students-database", {
+const client = new MongoClient("mongodb+srv://{username}:{password}@ritik.ff6rz6b.mongodb.net/students-database", {
     serverApi: {
         version: ServerApiVersion.v1,
         strict: true,
