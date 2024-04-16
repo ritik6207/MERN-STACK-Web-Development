@@ -1,0 +1,3 @@
+for install the third pary validator 
+use in commad
+npm i validator
